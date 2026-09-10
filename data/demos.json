@@ -1,0 +1,142 @@
+[
+  {
+    "id": "demo-charity-donation",
+    "title": "Charity & Donation",
+    "description": "A donation-focused starting point for organizations running campaigns and community programs.",
+    "searchCategories": "charity donation campaigns community programs fundraising cause",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-nonprofit-organization",
+    "title": "Nonprofit Organization",
+    "description": "A clear institutional structure for mission, programs, stories, partners, and ways to help.",
+    "searchCategories": "nonprofit organization mission programs stories partners impact",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-poverty-relief",
+    "title": "Poverty Relief",
+    "description": "A focused structure for relief programs, community outreach, stories, and ways to contribute.",
+    "searchCategories": "poverty relief aid livelihoods outreach support community",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-humanitarian-aid",
+    "title": "Humanitarian Aid",
+    "description": "A content-led demo for urgent appeals, field updates, programs, and transparent action.",
+    "searchCategories": "humanitarian aid emergency urgent appeals field updates disaster relief",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-children-education",
+    "title": "Children & Education",
+    "description": "A thoughtful foundation for education initiatives, impact stories, events, and support.",
+    "searchCategories": "children education schools learning youth students kids",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-environmental-charity",
+    "title": "Environmental Charity",
+    "description": "A flexible layout for conservation work, active projects, education, and volunteering.",
+    "searchCategories": "environmental charity conservation climate nature volunteering green ecology",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-community-support",
+    "title": "Community Support",
+    "description": "A welcoming structure for local services, neighborhood programs, resources, and events.",
+    "searchCategories": "community support local neighborhood services resources events church social",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-healthcare-charity",
+    "title": "Healthcare Charity",
+    "description": "A reassuring starting point for care programs, services, patient stories, and support.",
+    "searchCategories": "healthcare charity medical wellness clinics patients health hospital",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-food-hunger-relief",
+    "title": "Food & Hunger Relief",
+    "description": "A direct layout for meal programs, food distribution, local impact, and donations.",
+    "searchCategories": "food hunger relief food bank meals nutrition feeding pantry",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-fundraising-campaign",
+    "title": "Fundraising Campaign",
+    "description": "A campaign-led structure for presenting a cause, updates, impact, and participation.",
+    "searchCategories": "fundraising campaign donations cause appeal progress crowdfunding",
+    "image": "",
+    "linkText": "View Demo",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-catalog-placeholder-11",
+    "title": "Demo 11 · Details Required",
+    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
+    "searchCategories": "demo 11 details required catalog placeholder",
+    "image": "",
+    "isPlaceholder": true,
+    "linkText": "Demo URL Required",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-catalog-placeholder-12",
+    "title": "Demo 12 · Details Required",
+    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
+    "searchCategories": "demo 12 details required catalog placeholder",
+    "image": "",
+    "isPlaceholder": true,
+    "linkText": "Demo URL Required",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-catalog-placeholder-13",
+    "title": "Demo 13 · Details Required",
+    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
+    "searchCategories": "demo 13 details required catalog placeholder",
+    "image": "",
+    "isPlaceholder": true,
+    "linkText": "Demo URL Required",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-catalog-placeholder-14",
+    "title": "Demo 14 · Details Required",
+    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
+    "searchCategories": "demo 14 details required catalog placeholder",
+    "image": "",
+    "isPlaceholder": true,
+    "linkText": "Demo URL Required",
+    "url": "#demo-note"
+  },
+  {
+    "id": "demo-catalog-placeholder-15",
+    "title": "Demo 15 · Details Required",
+    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
+    "searchCategories": "demo 15 details required catalog placeholder",
+    "image": "",
+    "isPlaceholder": true,
+    "linkText": "Demo URL Required",
+    "url": "#demo-note"
+  }
+]
