@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
-import { CAPABILITIES_DATA } from "@/data/showcase-info";
+import { CAPABILITIES_DATA } from "@/data/capabilities";
+import { GifTooltip } from "@/components/ui/gif-tooltip";
 
 export function GutenbergShowcase() {
   return (
@@ -24,22 +27,26 @@ export function GutenbergShowcase() {
           aria-label="Gutenberg capabilities"
         >
           {CAPABILITIES_DATA.map((item) => (
-            <div
+            <GifTooltip
               key={item.num}
-              className="capability-row grid grid-cols-[48px_1fr] gap-6 border-b border-[var(--border)] py-[25px]"
+              src={item.gif}
+              alt={`${item.title} preview`}
+              width={680}
             >
-              <span className="num font-mono text-[12px] pt-[5px] text-[var(--muted)]">
-                {item.num}
-              </span>
-              <div>
-                <h3 className="mb-1 font-body text-[17px] font-semibold">
-                  {item.title}
-                </h3>
-                <p className="m-0 text-[14px] text-[var(--muted)]">
-                  {item.description}
-                </p>
+              <div className="capability-row grid cursor-default grid-cols-[48px_1fr] gap-6 border-b border-[var(--border)] py-[25px]">
+                <span className="num font-mono text-[12px] pt-[5px] text-[var(--muted)]">
+                  {item.num}
+                </span>
+                <div>
+                  <h3 className="mb-1 font-body text-[17px] font-semibold">
+                    {item.title}
+                  </h3>
+                  <p className="m-0 text-[14px] text-[var(--muted)]">
+                    {item.description}
+                  </p>
+                </div>
               </div>
-            </div>
+            </GifTooltip>
           ))}
         </div>
       </div>

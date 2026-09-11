@@ -1,142 +1,132 @@
 [
   {
-    "id": "demo-charity-donation",
-    "title": "Charity & Donation",
-    "description": "A donation-focused starting point for organizations running campaigns and community programs.",
+    "id": "demo-children",
+    "title": "Children",
+    "description": "Build a meaningful site for children’s causes with native design and flexible nonprofit layouts.",
     "searchCategories": "charity donation campaigns community programs fundraising cause",
-    "image": "",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-children-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/?theme=children"
   },
   {
-    "id": "demo-nonprofit-organization",
-    "title": "Nonprofit Organization",
-    "description": "A clear institutional structure for mission, programs, stories, partners, and ways to help.",
+    "id": "demo-education",
+    "title": "Education",
+    "description": "A nonprofit education theme supporting children's programs, scholarships, and community impact.",
     "searchCategories": "nonprofit organization mission programs stories partners impact",
-    "image": "",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-education-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/education/?theme=education"
   },
   {
-    "id": "demo-poverty-relief",
-    "title": "Poverty Relief",
-    "description": "A focused structure for relief programs, community outreach, stories, and ways to contribute.",
+    "id": "demo-environment",
+    "title": "Environment",
+    "description": "Plant native trees monthly, track satellite-verified growth, and protect forests with fair-pay local teams.",
     "searchCategories": "poverty relief aid livelihoods outreach support community",
-    "image": "",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-environment-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/environment/?theme=environment"
   },
   {
-    "id": "demo-humanitarian-aid",
-    "title": "Humanitarian Aid",
-    "description": "A content-led demo for urgent appeals, field updates, programs, and transparent action.",
+    "id": "demo-medical",
+    "title": "Medical",
+    "description": "A reassuring starting point for care programs, patient stories, services, and medical support.",
     "searchCategories": "humanitarian aid emergency urgent appeals field updates disaster relief",
-    "image": "",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-medical-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/medical/?theme=medical"
   },
   {
-    "id": "demo-children-education",
-    "title": "Children & Education",
-    "description": "A thoughtful foundation for education initiatives, impact stories, events, and support.",
-    "searchCategories": "children education schools learning youth students kids",
-    "image": "",
+    "id": "demo-animal-welfare",
+    "title": "Animal Welfare",
+    "description": "A compassionate platform for rescue, shelter care, veterinary services, adoption stories, and animal welfare support.",
+    "searchCategories": "animal cat dog",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-animal-welfare-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/animal-welfare/?theme=animal-welfare"
   },
   {
-    "id": "demo-environmental-charity",
-    "title": "Environmental Charity",
-    "description": "A flexible layout for conservation work, active projects, education, and volunteering.",
-    "searchCategories": "environmental charity conservation climate nature volunteering green ecology",
-    "image": "",
+    "id": "demo-foodbank",
+    "title": "Foodbank",
+    "description": "A direct layout for meal programs, food drives, volunteer shifts, and community hunger relief donations.",
+    "searchCategories": "charity conservation climate nature volunteering foodbank",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-foodbank-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/foodbank/?theme=food-bank"
   },
   {
-    "id": "demo-community-support",
-    "title": "Community Support",
-    "description": "A welcoming structure for local services, neighborhood programs, resources, and events.",
-    "searchCategories": "community support local neighborhood services resources events church social",
-    "image": "",
+    "id": "demo-clean-water",
+    "title": "Clean Water",
+    "description": "A versatile layout for ocean, river, and waterway conservation, cleanup projects, and marine ecosystem protection.",
+    "searchCategories": "charity nature volunteering clean water sea",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-clean-water-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/clean-water/?theme=clean-water"
   },
   {
-    "id": "demo-healthcare-charity",
-    "title": "Healthcare Charity",
-    "description": "A reassuring starting point for care programs, services, patient stories, and support.",
-    "searchCategories": "healthcare charity medical wellness clinics patients health hospital",
-    "image": "",
+    "id": "demo-disaster",
+    "title": "Disaster",
+    "description": "Rapid disaster response: verify, deploy, relieve, and rebuild communities from emergency to recovery.",
+    "searchCategories": "disaster volunteering charity",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-disaster-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/disaster/?theme=disaster"
   },
   {
-    "id": "demo-food-hunger-relief",
-    "title": "Food & Hunger Relief",
-    "description": "A direct layout for meal programs, food distribution, local impact, and donations.",
-    "searchCategories": "food hunger relief food bank meals nutrition feeding pantry",
-    "image": "",
+    "id": "demo-disability",
+    "title": "Disability",
+    "description": "A supportive layout for disability services, employment pathways, independent living, and community inclusion programs.",
+    "searchCategories": "disability volunteering charity",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-disability-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/disability/?theme=disability"
   },
   {
-    "id": "demo-fundraising-campaign",
-    "title": "Fundraising Campaign",
-    "description": "A campaign-led structure for presenting a cause, updates, impact, and participation.",
-    "searchCategories": "fundraising campaign donations cause appeal progress crowdfunding",
-    "image": "",
+    "id": "demo-poverty",
+    "title": "Poverty",
+    "description": "A compassionate landing for poverty relief, offering food, shelter, skills training, and pathways to stability.",
+    "searchCategories": "charity relief food poverty",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-poverty-landing.webp",
     "linkText": "View Demo",
-    "url": "#demo-note"
+    "url": "https://alonepro.beplusthemes.com/poverty/?theme=poverty"
   },
   {
-    "id": "demo-catalog-placeholder-11",
-    "title": "Demo 11 · Details Required",
-    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
-    "searchCategories": "demo 11 details required catalog placeholder",
-    "image": "",
+    "id": "demo-pumori",
+    "title": "Pumori",
+    "description": "A flexible event landing for charity runs, open days, and community fundraising galas that bring people together.",
+    "searchCategories": "charity galas pumori people",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-pumori-landing.webp",
     "isPlaceholder": true,
-    "linkText": "Demo URL Required",
-    "url": "#demo-note"
+    "linkText": "View Demo",
+    "url": "https://alonepro.beplusthemes.com/pumori/?theme=pumori"
   },
   {
-    "id": "demo-catalog-placeholder-12",
-    "title": "Demo 12 · Details Required",
-    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
-    "searchCategories": "demo 12 details required catalog placeholder",
-    "image": "",
+    "id": "demo-refugees",
+    "title": "Refugees",
+    "description": "A welcoming layout for refugee support, offering resettlement services, community integration, and essential aid programs.",
+    "searchCategories": "charity offering community",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-refugees-landing.webp",
     "isPlaceholder": true,
-    "linkText": "Demo URL Required",
-    "url": "#demo-note"
+    "linkText": "View Demo",
+    "url": "https://alonepro.beplusthemes.com/refugees/?theme=refugees"
   },
   {
-    "id": "demo-catalog-placeholder-13",
-    "title": "Demo 13 · Details Required",
-    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
-    "searchCategories": "demo 13 details required catalog placeholder",
-    "image": "",
+    "id": "demo-salado",
+    "title": "Salado",
+    "description": "A community-driven landing for collective action, volunteer stories, and sustainable nonprofit impact campaigns.",
+    "searchCategories": "community volunteer nonprofit",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-salado-landing.webp",
     "isPlaceholder": true,
-    "linkText": "Demo URL Required",
-    "url": "#demo-note"
+    "linkText": "View Demo",
+    "url": "https://alonepro.beplusthemes.com/salado/?theme=salado"
   },
   {
-    "id": "demo-catalog-placeholder-14",
-    "title": "Demo 14 · Details Required",
-    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
-    "searchCategories": "demo 14 details required catalog placeholder",
-    "image": "",
+    "id": "demo-yutmaru",
+    "title": "Yutmaru",
+    "description": "A warm landing for family support, charity galas, community open houses, and emergency relief volunteer teams.",
+    "searchCategories": "yutmaru charity community relief",
+    "image": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/home/alonepro-yutmaru-landing.webp",
     "isPlaceholder": true,
-    "linkText": "Demo URL Required",
-    "url": "#demo-note"
-  },
-  {
-    "id": "demo-catalog-placeholder-15",
-    "title": "Demo 15 · Details Required",
-    "description": "Replace this catalog placeholder with the confirmed AlonePro demo title and description.",
-    "searchCategories": "demo 15 details required catalog placeholder",
-    "image": "",
-    "isPlaceholder": true,
-    "linkText": "Demo URL Required",
-    "url": "#demo-note"
+    "linkText": "View Demo",
+    "url": "https://alonepro.beplusthemes.com/yutmaru/?theme=yutmaru"
   }
 ]

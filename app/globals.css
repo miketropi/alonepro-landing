@@ -590,6 +590,11 @@ input[type="search"]::-webkit-search-decoration {
   .hero-cta .btn, .cta-actions .btn { width: 100%; }
 }
 
+@keyframes gif-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }

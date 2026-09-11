@@ -1,37 +1,3 @@
-export interface CapabilityItem {
-  num: string;
-  title: string;
-  description: string;
-}
-
-export const CAPABILITIES_DATA: CapabilityItem[] = [
-  {
-    num: "01",
-    title: "Block-based layouts",
-    description: "Build pages from flexible content sections that remain understandable and editable.",
-  },
-  {
-    num: "02",
-    title: "Reusable patterns",
-    description: "Start from repeatable AlonePro sections created around nonprofit communication.",
-  },
-  {
-    num: "03",
-    title: "Global styles",
-    description: "Keep typography, colors, and spacing consistent across the website.",
-  },
-  {
-    num: "04",
-    title: "Content-first editing",
-    description: "Shape mission pages, campaigns, stories, and updates around the content itself.",
-  },
-  {
-    num: "05",
-    title: "Responsive foundations",
-    description: "Work from layouts designed to adapt naturally as screens and content change.",
-  },
-];
-
 export const PATTERN_TAGS: string[] = [
   "Hero",
   "Donation campaigns",
