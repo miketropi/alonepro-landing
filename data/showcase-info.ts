@@ -1,3 +1,5 @@
+import workflowSteps from "./workflow-steps.json";
+
 export const PATTERN_TAGS: string[] = [
   "Hero",
   "Donation campaigns",
@@ -20,15 +22,14 @@ export const PATTERN_TAGS: string[] = [
 export interface WorkflowStep {
   num: string;
   title: string;
+  description: string;
+  gif: string;
+  poster: string;
+  alt: string;
   isLast?: boolean;
 }
 
-export const WORKFLOW_STEPS: WorkflowStep[] = [
-  { num: "01", title: "Choose" },
-  { num: "02", title: "Combine" },
-  { num: "03", title: "Customize" },
-  { num: "04", title: "Publish", isLast: true },
-];
+export const WORKFLOW_STEPS: WorkflowStep[] = workflowSteps;
 
 export interface PrincipleItem {
   title: string;

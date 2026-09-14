@@ -46,7 +46,7 @@ export const COMPATIBLE_PLUGINS: PluginItem[] = [
     id: "plugin-beplus-nav",
     name: "Beplus Visual Mega Navigation",
     description: "Build feature-rich mega menus that integrate cleanly with AlonePro's header.",
-    url: "https://beplusthemes.com/",
+    url: "https://wordpress.org/plugins/beplus-visual-mega-nav/",
     icon: "compass",
   },
   {

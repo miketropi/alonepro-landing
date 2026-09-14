@@ -501,6 +501,32 @@ input[type="search"]::-webkit-search-decoration {
   line-height: 1.45;
 }
 
+.price-list-benefit {
+  padding: 12px;
+  border: 1px solid color-mix(in srgb, #388e4a 32%, var(--border));
+  border-left: 3px solid #388e4a;
+  background: color-mix(in srgb, #388e4a 12%, transparent);
+  color: var(--fg);
+  font-weight: 650;
+}
+
+.price-list-benefit a {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, #388e4a 55%, transparent);
+  text-underline-offset: 3px;
+}
+
+.price-list-benefit a:hover {
+  color: #388e4a;
+  text-decoration-color: currentColor;
+}
+
+.price-list-benefit .lucide-check {
+  flex: 0 0 auto;
+  color: #388e4a;
+  stroke-width: 2.5;
+}
+
 .price-card .btn {
   margin-top: auto;
   width: 100%;

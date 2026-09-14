@@ -59,6 +59,9 @@ export function PricingSection() {
         <div className="pricing-grid" aria-live="polite">
           {PRICING_DATA.map((plan) => {
             const price = isLifetime ? plan.lifetimePrice : plan.annualPrice;
+            const giftFlowSaving = isLifetime
+              ? plan.lifetimeGiftFlowSaving
+              : plan.annualGiftFlowSaving;
             return (
               <article
                 key={plan.id}
@@ -92,6 +95,17 @@ export function PricingSection() {
                       <span>{feat}</span>
                     </li>
                   ))}
+                  <li className="price-list-benefit">
+                    <Check className="lucide lucide-check" aria-hidden="true" />
+                    <a
+                      href="https://giftflow.beplus-agency.cloud/pro"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GiftFlow Pro Version — save ${giftFlowSaving.toFixed(2)} / site{" "}
+                      {isLifetime ? "lifetime" : "annually"}
+                    </a>
+                  </li>
                 </ul>
 
                 <a

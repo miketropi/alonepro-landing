@@ -213,24 +213,6 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
         });
       }
 
-      // 6. Workflow Steps
-      const workflowSteps = gsap.utils.toArray<HTMLElement>(".workflow-step");
-      if (workflowSteps.length > 0) {
-        gsap.from(workflowSteps, {
-          opacity: 0,
-          y: 22,
-          duration: 0.7,
-          stagger: 0.08,
-          ease: "power2.out",
-          clearProps: "all",
-          scrollTrigger: {
-            trigger: ".workflow",
-            start: "top 88%",
-            once: true,
-          },
-        });
-      }
-
       // 7. Principles List
       const principleItems = gsap.utils.toArray<HTMLElement>(".principle-item");
       if (principleItems.length > 0) {
