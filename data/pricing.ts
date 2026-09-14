@@ -4,6 +4,8 @@ export interface PricingPlan {
   headline: string;
   annualPrice: number;
   lifetimePrice: number;
+  annualGiftFlowSaving: number;
+  lifetimeGiftFlowSaving: number;
   pricingId: string;
   isPrimary?: boolean;
   features: string[];
@@ -18,6 +20,8 @@ export const PRICING_DATA: PricingPlan[] = [
     headline: "For one nonprofit or organization website.",
     annualPrice: 69,
     lifetimePrice: 199,
+    annualGiftFlowSaving: 191.88,
+    lifetimeGiftFlowSaving: 579.99,
     pricingId: "73588",
     features: [
       "AlonePro Theme",
@@ -36,6 +40,8 @@ export const PRICING_DATA: PricingPlan[] = [
     headline: "For freelancers and organizations managing a small portfolio.",
     annualPrice: 149,
     lifetimePrice: 399,
+    annualGiftFlowSaving: 191.88,
+    lifetimeGiftFlowSaving: 579.99,
     pricingId: "73589",
     isPrimary: true,
     features: [
@@ -55,6 +61,8 @@ export const PRICING_DATA: PricingPlan[] = [
     headline: "For studios and teams delivering websites at scale.",
     annualPrice: 299,
     lifetimePrice: 799,
+    annualGiftFlowSaving: 191.88,
+    lifetimeGiftFlowSaving: 579.99,
     pricingId: "73590",
     features: [
       "AlonePro Theme",

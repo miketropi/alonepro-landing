@@ -1,0 +1,35 @@
+[
+  {
+    "num": "01",
+    "title": "Choose",
+    "description": "Start with a ready-made section for your mission, campaign, or story.",
+    "gif": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/%5BAlonePro%5D%20Select%20%26%20Import%20Template%20from%20Cloud%20API.gif",
+    "poster": "/images/workflow/choose.png",
+    "alt": "Choose a ready-made page pattern"
+  },
+  {
+    "num": "02",
+    "title": "Combine",
+    "description": "Bring sections together to guide visitors from your cause to a clear next step.",
+    "gif": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/%5Balonepro%5D%20Patterns%20%26%20building%20blocks%20-%20step%20combine.gif",
+    "poster": "/images/workflow/combine.png",
+    "alt": "Combine patterns into a page"
+  },
+  {
+    "num": "03",
+    "title": "Customize",
+    "description": "Make it yours with your colors, imagery, and words—all in the block editor.",
+    "gif": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/%5Balonepro%5D%20Patterns%20%26%20building%20blocks%20-%20step%20customize.gif",
+    "poster": "/images/workflow/customize.png",
+    "alt": "Customize a pattern for your cause"
+  },
+  {
+    "num": "04",
+    "title": "Publish",
+    "description": "Review your page, share it with the world, and keep building as your mission grows.",
+    "gif": "https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/alonepro/Landing%20Assets/%5Balonepro%5D%20Patterns%20%26%20building%20blocks%20-%20step%20publish.gif",
+    "poster": "/images/workflow/publish.png",
+    "alt": "Publish the finished page",
+    "isLast": true
+  }
+]
