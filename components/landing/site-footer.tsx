@@ -1,5 +1,6 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
+import Script from "next/script";
 
 export function SiteFooter() {
   return (
@@ -98,6 +99,12 @@ export function SiteFooter() {
           </span>
         </div>
       </div>
+      <Script
+        src="https://alonepro.beplusthemes.com/wp-content/plugins/beplus-site-assistant/assets/embed.js"
+        data-bsa-site="https://alonepro-landing.beplus-agency.cloud"
+        data-bsa-key="pk_6iiYbyZUrSO1u06KGwBuK3gmTLa1FYJc"
+        strategy="afterInteractive"
+      />
     </footer>
   );
 }
