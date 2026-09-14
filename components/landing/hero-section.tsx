@@ -1,4 +1,5 @@
 import React from "react";
+import { AnimatedButtonText } from "@/components/ui/animated-button-text";
 
 const HERO_HEADLINES = [
   "Build meaningful websites.",
@@ -90,14 +91,14 @@ export function HeroSection() {
             href="#demos"
             data-od-id="hero-explore-demos"
           >
-            Explore Demos
+            <AnimatedButtonText text="Explore Demos" />
           </a>
           <a
             className="btn btn-secondary max-[430px]:w-full"
             href="#features"
             data-od-id="hero-view-features"
           >
-            View Features
+            <AnimatedButtonText text="View Features" />
           </a>
         </div>
 

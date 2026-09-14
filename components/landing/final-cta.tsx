@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { AnimatedButtonText } from "@/components/ui/animated-button-text";
 export function FinalCta() {
   return (
     <section className="section cta-section border-t border-[var(--border)]" data-od-id="final-cta">
@@ -18,14 +19,14 @@ export function FinalCta() {
             href="#pricing"
             data-od-id="final-get-alonepro"
           >
-            Get AlonePro
+            <AnimatedButtonText text="Get AlonePro" />
           </a>
           <a
             className="btn btn-ghost btn-arrow inline-flex items-center gap-2"
             href="#demos"
             data-od-id="final-explore-demos"
           >
-            <span>Explore All Demos</span>
+            <AnimatedButtonText text="Explore All Demos" />
             <ArrowRight className="h-4 w-4 transition-transform duration-180 ease-out group-hover:translate-x-1" aria-hidden="true" />
           </a>
         </div>

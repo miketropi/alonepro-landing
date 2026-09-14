@@ -21,6 +21,7 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
       return;
     }
 
+
     const ctx = gsap.context(() => {
       // 1. Hero Reveal Timeline (immediate, smooth, fail-safe)
       const heroTl = gsap.timeline({ defaults: { ease: "power2.out" } });
@@ -98,6 +99,7 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
             .set(headline, { autoAlpha: 0 });
         });
       }
+
 
       // Parallax effect on decorative hero blocks
       const heroSection = document.getElementById("top");
@@ -236,7 +238,7 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
           opacity: 0,
           y: 22,
           duration: 0.7,
-          stagger: 0.05,
+          stagger: 0.06,
           ease: "power2.out",
           clearProps: "all",
           scrollTrigger: {

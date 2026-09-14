@@ -3,6 +3,7 @@
 import { useState, useMemo, useTransition } from "react";
 import { Search, ArrowRight } from "lucide-react";
 import { DEMOS_DATA, type DemoItem } from "@/data/demos";
+import { AnimatedButtonText } from "@/components/ui/animated-button-text";
 
 export function DemoShowcase() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -83,7 +84,7 @@ export function DemoShowcase() {
                   onClick={handleClear}
                   data-od-id="demo-search-clear"
                 >
-                  Clear
+                  <AnimatedButtonText text="Clear" />
                 </button>
               )}
             </div>

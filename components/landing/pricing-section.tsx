@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Check } from "lucide-react";
 import { PRICING_DATA } from "@/data/pricing";
+import { AnimatedButtonText } from "@/components/ui/animated-button-text";
 
 export type BillingTerm = "annual" | "lifetime";
 
@@ -39,7 +40,7 @@ export function PricingSection() {
               data-billing="annual"
               data-od-id="billing-annual"
             >
-              Annual
+              <AnimatedButtonText text="Annual" />
             </button>
             <button
               className="billing-option"
@@ -49,7 +50,7 @@ export function PricingSection() {
               data-billing="lifetime"
               data-od-id="billing-lifetime"
             >
-              Lifetime
+              <AnimatedButtonText text="Lifetime" />
             </button>
           </div>
         </div>
@@ -101,7 +102,7 @@ export function PricingSection() {
                   data-plan={plan.kicker}
                   data-term={billingTerm}
                 >
-                  {plan.ctaText}
+                  <AnimatedButtonText text={plan.ctaText} />
                 </a>
               </article>
             );

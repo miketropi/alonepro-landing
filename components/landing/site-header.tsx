@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { AnimatedButtonText } from "@/components/ui/animated-button-text";
 
 export function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
@@ -88,7 +89,7 @@ export function SiteHeader() {
           href="#pricing"
           data-od-id="header-get-alonepro"
         >
-          Get AlonePro
+          <AnimatedButtonText text="Get AlonePro" />
         </a>
 
         <button
