@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { CustomEase } from "gsap/CustomEase";
 
 export function GsapProvider({ children }: { children: React.ReactNode }) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -10,7 +11,7 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger, CustomEase);
 
     const reduceMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
@@ -50,6 +51,53 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
           },
           "-=0.4"
         );
+
+      const headlines = gsap.utils.toArray<HTMLElement>("[data-hero-headline]");
+      if (headlines.length > 1) {
+        const enterEase = CustomEase.create(
+          "hero-headline-enter",
+          "0.22, 1, 0.36, 1",
+        );
+        const exitEase = CustomEase.create(
+          "hero-headline-exit",
+          "0.64, 0, 0.78, 0",
+        );
+        const headlineTl = gsap.timeline({ repeat: -1, delay: 0.4 });
+
+        gsap.set(headlines, { autoAlpha: 0 });
+
+        headlines.forEach((headline) => {
+          const characters = headline.querySelectorAll<HTMLElement>(
+            "[data-hero-character]",
+          );
+
+          headlineTl
+            .set(headline, { autoAlpha: 1 })
+            .set(characters, {
+              autoAlpha: 0,
+              y: 9.28,
+              filter: "blur(12px)",
+            })
+            .to(characters, {
+              autoAlpha: 1,
+              y: 0,
+              filter: "blur(0px)",
+              duration: 0.648,
+              stagger: 0.018,
+              ease: enterEase,
+            })
+            .to({}, { duration: 2.8 })
+            .to(characters, {
+              autoAlpha: 0,
+              y: -9.28,
+              filter: "blur(12px)",
+              duration: 0.432,
+              stagger: 0.011,
+              ease: exitEase,
+            })
+            .set(headline, { autoAlpha: 0 });
+        });
+      }
 
       // Parallax effect on decorative hero blocks
       const heroSection = document.getElementById("top");

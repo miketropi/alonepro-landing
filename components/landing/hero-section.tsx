@@ -1,5 +1,12 @@
 import React from "react";
 
+const HERO_HEADLINES = [
+  "Build meaningful websites.",
+  "Turn purpose into impact.",
+  "Tell stories that inspire action.",
+  "Grow communities that care.",
+];
+
 export function HeroSection() {
   return (
     <section
@@ -40,10 +47,36 @@ export function HeroSection() {
         </p>
 
         <h1
-          className="mx-auto mb-[var(--gap-lg)] max-w-[14ch] text-[var(--fs-h1)] leading-[0.98] tracking-[-0.035em] font-medium hero-reveal"
+          className="relative mx-auto mb-[var(--gap-lg)] grid max-w-[14ch] text-[var(--fs-h1)] leading-[0.98] tracking-[-0.035em] font-medium hero-reveal"
           data-od-id="hero-heading"
+          aria-label={HERO_HEADLINES.join(" ")}
         >
-          Build meaningful websites.
+          {HERO_HEADLINES.map((headline, index) => (
+            <span
+              key={headline}
+              className="hero-headline col-start-1 row-start-1 flex flex-wrap items-center justify-center"
+              data-hero-headline
+              aria-hidden="true"
+              style={{ visibility: index === 0 ? "visible" : "hidden" }}
+            >
+              {headline.split(" ").map((word, wordIndex, words) => (
+                <span
+                  key={`${headline}-${wordIndex}`}
+                  className={wordIndex < words.length - 1 ? "mr-[0.22em] whitespace-nowrap" : "whitespace-nowrap"}
+                >
+                  {Array.from(word).map((character, characterIndex) => (
+                    <span
+                      key={`${character}-${characterIndex}`}
+                      className="inline-block whitespace-pre backface-hidden will-change-[transform,opacity,filter]"
+                      data-hero-character
+                    >
+                      {character}
+                    </span>
+                  ))}
+                </span>
+              ))}
+            </span>
+          ))}
         </h1>
 
         <p className="lead mx-auto mb-[clamp(44px,5.5vw,56px)] hero-reveal">
