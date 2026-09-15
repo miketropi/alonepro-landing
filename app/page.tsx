@@ -6,6 +6,7 @@ import { FeatureHighlights } from "@/components/landing/feature-highlights";
 import { PatternShowcase } from "@/components/landing/pattern-showcase";
 import { PrinciplesSection } from "@/components/landing/principles-section";
 import { CompatibleSection } from "@/components/landing/compatible-section";
+import { MegaMenuSection } from "@/components/landing/megamenu-section";
 import { PricingSection } from "@/components/landing/pricing-section";
 import { FinalCta } from "@/components/landing/final-cta";
 import { SiteFooter } from "@/components/landing/site-footer";
@@ -24,6 +25,7 @@ export default function Home() {
           <PatternShowcase />
           <PrinciplesSection />
           <CompatibleSection />
+          <MegaMenuSection />
           <PricingSection />
           <FinalCta />
         </main>

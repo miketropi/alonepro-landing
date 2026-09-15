@@ -141,6 +141,7 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
       animateSectionHead('[data-od-id="patterns-building-blocks"] .section-reveal');
       animateSectionHead('[data-od-id="lightweight-responsive"] .section-reveal');
       animateSectionHead('[data-od-id="plugin-compatibility"] .section-reveal');
+      animateSectionHead('[data-od-id="megamenu-showcase"] .section-reveal');
       animateSectionHead(".cta-section .container", ".cta-section");
 
       // 3. Demo Collection: search bar & cards grid
@@ -261,6 +262,40 @@ export function GsapProvider({ children }: { children: React.ReactNode }) {
           clearProps: "all",
           scrollTrigger: {
             trigger: '[data-od-id="plugin-compatibility"]',
+            start: "top 88%",
+            once: true,
+          },
+        });
+      }
+
+      // 10. MegaMenu Walkthrough Items & Video Frame
+      const megamenuEntries = gsap.utils.toArray<HTMLElement>(".megamenu-entry");
+      if (megamenuEntries.length > 0) {
+        gsap.from(megamenuEntries, {
+          opacity: 0,
+          y: 22,
+          duration: 0.7,
+          stagger: 0.06,
+          ease: "power2.out",
+          clearProps: "all",
+          scrollTrigger: {
+            trigger: ".megamenu-entries-list",
+            start: "top 88%",
+            once: true,
+          },
+        });
+      }
+
+      const megamenuPlayer = document.querySelector<HTMLElement>(".megamenu-player-frame");
+      if (megamenuPlayer) {
+        gsap.from(megamenuPlayer, {
+          opacity: 0,
+          y: 28,
+          duration: 0.75,
+          ease: "power2.out",
+          clearProps: "all",
+          scrollTrigger: {
+            trigger: ".megamenu-player-frame",
             start: "top 88%",
             once: true,
           },
